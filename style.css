@@ -1,0 +1,19 @@
+*{
+    text-decoration: none;
+}
+
+.tooltip-tex{
+background: blueviolet;
+border: 1px solid red;
+font-size: 25px;
+border-radius: 10px;
+color: white;
+padding: 7px;
+position: absolute;
+top:30px;
+left: 33px;
+visibility: hidden;
+}
+.tooltip:hover .tooltip-tex{
+    visibility: visible;
+}
